@@ -2,10 +2,11 @@
 
 int main(){
 
+    // definindo variáveis
     float temperatura, umidade;
     unsigned int estoque, estoquemin = 1000;
 
-
+    // obtendo os valores do usuário
     printf("Qual a temperatura?: \n");
     scanf("%f", &temperatura);
     
@@ -14,7 +15,8 @@ int main(){
 
     printf("Qual a quantidade do estoque?: \n");
     scanf("%u", &estoque);
-    
+
+    // fazendo a comparação e exibindo as condicionais
     if( temperatura > 30){
         printf("A temperatura está alta! \n");
     }
